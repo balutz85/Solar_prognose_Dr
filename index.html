@@ -482,7 +482,7 @@ function render() {
     <!-- System Size -->
     <div class="fade-in sans size-row" data-delay="100">
       <span class="size-label">Anlagengröße:</span>
-      ${[5, 8, 10, 11, 12, 15, 20, 30].map(s => `
+      ${[8, 10, 11, 12, 13].map(s => `
         <button class="size-btn ${state.systemSize === s ? 'active' : ''}" onclick="setSize(${s})">${s} kWp</button>
       `).join("")}
     </div>
